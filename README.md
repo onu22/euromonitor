@@ -3,6 +3,7 @@
 - sql server runs in a docker container
 - API is protected by Azure AD
 - To view the token being passed, see request header on browser's network tab.
+- Running the API should create the database
 
 ### Test locally
 
