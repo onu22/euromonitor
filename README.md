@@ -1,8 +1,9 @@
 
 ### **Note**
 
--Database runs in a docker container
+- Database runs in a docker container
 - API is protected by Azure AD
+- to view the token being passed, see request header on browser's network tab.
 
 ### **Test locally**
 
@@ -14,7 +15,7 @@ STEPS:
  
 (3. If docker is not available, set "Euromonitor.Api" as the default project. Change db connection string (in appsettings.Development) to local sql server. Run project.
 
-(4. Swagger documentation is on https://localhost:9350/swagger/index.html - change port if not running in docker.
+(4. Swagger documentation is on https://localhost:9350/swagger/index.html - change port if not running in docker. To test on swagger, Log in with the accessToken by clicking on "Authorize" button. Enter: Bearer <replace_with_accesstoken> .
 
 (5. Open euromonitor-angular, the Front-End project, in your favorite editor and run "npm install" and "npm start"
 
