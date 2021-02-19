@@ -1,0 +1,46 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euromonitor.ApI.UnitTests", "Euromonitor.ApI.UnitTests\Euromonitor.ApI.UnitTests.csproj", "{06E37AF5-CD43-43AF-9E9F-443C185B7BDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euromonitor.ApI", "Euromonitor.ApI\Euromonitor.ApI.csproj", "{4305C535-ED92-4038-91BE-AE20AF64C892}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AEAE56BD-5897-4A02-8282-E8A18912320A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4821FF41-0D8C-4E17-9A1C-14D16A63E5E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euromonitor.Domain", "Euromonitor.Domain\Euromonitor.Domain.csproj", "{44C1C761-1BCF-4557-A65A-A887C01821F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euromonitor.Infrastructure", "Euromonitor.Infrastructure\Euromonitor.Infrastructure.csproj", "{B1EE47AD-74DA-4525-8DF0-43E9E2A23C37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06E37AF5-CD43-43AF-9E9F-443C185B7BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E37AF5-CD43-43AF-9E9F-443C185B7BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E37AF5-CD43-43AF-9E9F-443C185B7BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E37AF5-CD43-43AF-9E9F-443C185B7BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4305C535-ED92-4038-91BE-AE20AF64C892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4305C535-ED92-4038-91BE-AE20AF64C892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4305C535-ED92-4038-91BE-AE20AF64C892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4305C535-ED92-4038-91BE-AE20AF64C892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEAE56BD-5897-4A02-8282-E8A18912320A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEAE56BD-5897-4A02-8282-E8A18912320A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEAE56BD-5897-4A02-8282-E8A18912320A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEAE56BD-5897-4A02-8282-E8A18912320A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44C1C761-1BCF-4557-A65A-A887C01821F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C1C761-1BCF-4557-A65A-A887C01821F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C1C761-1BCF-4557-A65A-A887C01821F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C1C761-1BCF-4557-A65A-A887C01821F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EE47AD-74DA-4525-8DF0-43E9E2A23C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EE47AD-74DA-4525-8DF0-43E9E2A23C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EE47AD-74DA-4525-8DF0-43E9E2A23C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EE47AD-74DA-4525-8DF0-43E9E2A23C37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06E37AF5-CD43-43AF-9E9F-443C185B7BDA} = {4821FF41-0D8C-4E17-9A1C-14D16A63E5E9}
+	EndGlobalSection
+EndGlobal

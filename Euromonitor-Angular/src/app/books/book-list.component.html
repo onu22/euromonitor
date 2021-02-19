@@ -1,0 +1,42 @@
+<div class='card'>
+    <div class='card-header'>
+      Books
+    </div>
+    <div class='card-body'>
+
+      <div class='table-responsive'>
+        <table class='table'
+               *ngIf='books && books.length'>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Price</th>
+              <th *ngIf='loggedIn'></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let book of books'>
+              <td>  {{ book.name }}</td>
+              <td>  {{ book.price }}</td>
+              <td *ngIf='loggedIn'>                
+                <button type="button" (click)='onSubUnSub(book)' class="btn btn-sm"                
+                [ngClass]="{
+                  'btn-outline-danger': book.userIsSubscribed,
+                  'btn-outline-success': !book.userIsSubscribed
+                }"
+                >
+                {{ book.userIsSubscribed == true ? 'Unsubscribe' : 'Subscribe' }}
+                </button>
+
+              </td>
+              <td *ngIf='loggedIn'>  <a *ngIf='book.userIsSubscribed' [routerLink]="['/books', book.id]" 
+                class="btn btn-sm btn-outline-success">Read</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  
+    </div>
+  
+  </div>
