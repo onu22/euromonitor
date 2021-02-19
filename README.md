@@ -19,3 +19,6 @@ STEPS:
 (5. Open euromonitor-angular, the Front-End project, in your favorite editor and run "npm install" and "npm start". - If the API is not running on docker, change API_URL (in environment.ts) to the correct url.
 
 (6. To login, enter username: euromonitor@pascal2bhotmail.onmicrosoft.com and password: Mama6001
+
+
+#for questions, kindly contact me on onuorahpascal@yahoo.com
